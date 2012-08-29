@@ -23,11 +23,6 @@ libcompat_la_SOURCES = \
 compat_getopt_main_LDADD = libcompat.la
 
 libpkcs11_la_SOURCES = libpkcs11.c libpkcs11.h
-<<<<<<< .merge_file_4fNfoJ
 libpkcs11_la_LDFLAGS = $(LTLIB_LIBS)
-=======
-libpkcs11_la_LDFLAGS = $(LTLIB_LIBS) 
->>>>>>> .merge_file_t1udgL
-libpkcs11_la_LIBADD = libscdl.la
 
 libscdl_la_SOURCES = libscdl.c libscdl.h
